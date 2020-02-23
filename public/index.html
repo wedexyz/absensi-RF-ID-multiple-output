@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absensi Sekolah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  
+</head>
+<body onload="renderTable1()">
+    <h2>Absensi Sekolah</h2><button id="button" onclick="ngeprint()">Pdf Print</button>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="cari berdasarkan no urut" title="Type in a name">
+    <table id="myTable">
+      <tr class="header">
+        <th id="myTable" style="width:70%;">Absensi</th>
+      </tr>
+      <td><table id="table1" ></table></td>
+    </table>
+    
+<script src="firebase.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+	background-image: url("2.gif");
+	background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+
+#button {
+    background-color: #04e8f8ab;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+
+#myInput {
+ 
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 40%;
+  font-size: 16px;
+
+  padding: 12px 20px 12px 40px;
+  border: 1px solid rgba(221, 221, 221, 0.507);
+  background-color: rgba(240, 248, 255, 0.459);
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 80%;
+  border: 1px solid rgba(14, 176, 204, 0.596);
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable {
+  background-color: #06fae685;
+}
